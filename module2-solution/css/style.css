@@ -18,7 +18,7 @@ h1 {
 p {
 	position: relative;
   	width: 93%;
-  	top: 25%;
+  	padding-top: 40px;
   	margin-right: auto;
   	margin-left: 15px;
   	margin-bottom: 1%;
@@ -59,7 +59,7 @@ p {
 
 @media (min-width: 992px) {
   .col-lg {
-  	height: 149px;
+  	height: 152px;
   	position: relative;
     float: left;
     border: 1px solid black;
@@ -98,7 +98,7 @@ p {
 
 @media (max-width: 767px) {
   .col-sm {
-  	height: 148px;
+  	height: 152px;
   	position: relative;
     float: left;
     border: 1px solid black;
