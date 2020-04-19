@@ -1,0 +1,81 @@
+/*HEADER*/
+.navbar-brand{
+	font-weight: bold;
+	padding-left: 1%;
+	font-size: 1.5em;
+}
+#headerTitle{
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+.navbar-toggler:hover, .navbar-toggler:focus{
+	background-color: #CBCBCB;
+}
+
+
+/*HOME PAGE*/
+#menu-title {
+	font-weight: bold;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.jumbotron div:nth-child(1){
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 1%;
+}
+.jumbotron{
+	padding: 1% 1% 1% 2%;
+}
+.container-fluid{
+	padding-right :2%;
+	padding-left: 2%;
+}
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .navbar-nav, .navbar-toggler {
+    display: none;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ .navbar-nav, .navbar-toggler {
+    display: none;
+ }
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ .navbar-nav, .navbar-toggler {
+    display: none;
+ }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	.item-border{
+		border: 1px solid black;
+	}
+	#menu-title {
+	margin-bottom: 6%;
+	margin-top: 6%;	
+	}
+	.container-fluid{
+	padding-right: 15%;
+	padding-left: 15%;
+	}
+	#chicken{
+	margin-bottom: 1%;
+	}
+	.nav-link {
+		font-weight: bold;
+	}
+}
